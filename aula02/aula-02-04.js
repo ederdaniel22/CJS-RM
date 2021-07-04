@@ -2,7 +2,10 @@
 
 const email = 'laracroft@rogermelo.com.br'
 
-const lastIndexOfA = email.lastIndexOf('a')// índice do último carácter escolhido
+// nome-da-constante-escolhida.indexOf('aqui vai o caractere escolhido') busca o índice do primeiro carácter escolhido
+// nome-da-constante-escolhida.lastIndexOf('aqui vai o caractere escolhido') busca o índice do último carácter escolhido
+
+const lastIndexOfA = email.lastIndexOf('a')
 
 console.log(lastIndexOfA)
 
